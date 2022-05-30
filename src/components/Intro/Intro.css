@@ -112,3 +112,103 @@
     top: -7rem !important;;
   }
 }
+
+.banner-me{
+  font-size: 50px;
+  position: relative;
+  color: rgb(221, 9, 126);
+  white-space: nowrap;
+}
+.banner-me::before{
+  content: 'Nasir Uddin';
+  position: absolute;
+  color: rgb(103, 214, 12);
+  top: 0;
+  left: 0;
+  animation: Nasir 3s linear infinite;
+}
+@keyframes Nasir{
+  0% {
+      content: 'N|';
+  }
+
+  4% {
+      content: 'Na|';
+  }
+
+  8% {
+      content: 'Nas|';
+  }
+
+  12% {
+      content: 'Nasi|';
+  }
+
+  16% {
+      content: 'Nasir|';
+  }
+
+  20% {
+      content: 'Nasir |';
+  }
+
+  24% {
+      content: 'Nasir U|';
+  }
+  24% {
+      content: 'Nasir Ud|';
+  }
+  32% {
+      content: 'Nasir Udd|';
+  }
+  36% {
+      content: 'Nasir Uddi|';
+  }
+  40% {
+      content: 'Nasir Uddin|';
+  }
+  
+  40% {
+      content: 'Nasir Uddin|';
+  }
+  40% {
+      content: 'Nasir Uddin|';
+  }
+
+  45%, 
+  55% {
+      content: 'Nasir Uddi|';
+  }
+  60% {
+      content: 'Nasir Udd|';
+  }
+  64% {
+      content: 'Nasir Ud|';
+  }
+  68% {
+      content: 'Nasir U|';
+  }
+  72% {
+      content: 'Nasir |';
+  }
+  77% {
+      content: 'Nasir|';
+  }
+  82% {
+      content: 'Nasi|';
+  }
+  
+  86% {
+      content: 'Nas|';
+  }
+  
+  90% {
+      content: 'Na|';
+  }
+  94% {
+      content: 'N|';
+  }
+  100% {
+      content: '|';
+  }
+}
