@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    margin-top: 90px;
   
   }
   /* heading */
@@ -37,5 +38,16 @@
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
   }
-  
-  
+  .card-web{
+    background-color: rgb(218, 237, 247);
+    text-align: center;
+    border-radius: 20px;
+    
+    
+  }
+  .card-web a{
+    margin: 20px;
+  }
+
+ 
+ 
